@@ -95,7 +95,7 @@ void durumRaporu(int saglik, int enerji, int oksijen, int su,
     printf("Su                  : %d birim\n", su);
     printf("Yedek parca         : %d\n", yedekParca);
     printf("Modul hasari        : %d / 100\n", modulHasari);
-    printf("Hava kilidi         : %s\n", kilitMuhurlu ? "Muhurli" : "Muhurlenmedi");
+    printf("Hava kilidi         : %s\n", kilitMuhurlu ? "Muhurlu" : "Muhurlenmedi");
 
     if (oksijen < 25)
         printf("UYARI: Oksijen kritik seviyede!\n");
@@ -142,7 +142,7 @@ void sonucRaporu(int oyunDurumu, int saglik, int enerji, int oksijen,
     printf("Son su              : %d birim\n", su);
     printf("Son yedek parca     : %d\n", yedekParca);
     printf("Son modul hasari    : %d / 100\n", modulHasari);
-    printf("Hava kilidi         : %s\n", kilitMuhurlu ? "Muhurli" : "Muhurlenmedi");
+    printf("Hava kilidi         : %s\n", kilitMuhurlu ? "Muhurlu" : "Muhurlenmedi");
     printf("PUAN = (gun x 100) + saglik + oksijen - modul hasari\n");
     printf("PUANINIZ: %d\n", puan);
     printf("========================================\n");
@@ -500,7 +500,7 @@ int main(void)
 
                         if (kilitMuhurlu == 1)
                         {
-                            printf("Hava kilidi muhurli: Oksijen sizintisi bu tur continue ile atlandi.\n");
+                            printf("Hava kilidi muhurlu: Oksijen sizintisi bu tur continue ile atlandi.\n");
                             continue;
                         }
 
